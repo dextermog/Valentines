@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be My Valentine</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8d7da;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      text-align: center;
+      color: #fff;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    button {
+      font-size: 24px;
+      padding: 15px 30px;
+      cursor: pointer;
+      border: none;
+      background-color: #f8b3b3;
+      color: white;
+      border-radius: 10px;
+      margin: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .no {
+      background-color: #ff6f61;
+    }
+
+    .yes {
+      background-color: #72c2e1;
+    }
+
+    .cat-image {
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Really?</h1>
+  <div class="button-container">
+    <button class="yes" onclick="window.location.href='final.html';">Yes</button>
+    <button class="no" disabled>
+      <img src="cat-image.jpg" class="cat-image" alt="Cute Cat">
+    </button>
+  </div>
+</body>
+</html>
